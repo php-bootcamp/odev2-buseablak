@@ -22,3 +22,14 @@ $age = 25; // yaş (sene)
  * 
  * Ekrana 1326.5 yazması gerekiyor.
  */
+$calorie;
+if ($sex=="female") {
+	$calorie=10*$weight+6.25*$height-5*$age+5;
+	echo "$calorie";
+}
+elseif ($sex=="male") {
+	$calorie=10*$weight+6.25*$height-5*$age-161;
+	echo "$calorie";
+}
+
+?>
